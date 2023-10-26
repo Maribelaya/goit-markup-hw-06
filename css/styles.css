@@ -250,6 +250,7 @@ address {
     justify-content: center;
     gap: 40px;
     padding-top: 48px;
+    padding-bottom: 40px;
     align-items: center;
 }
 
