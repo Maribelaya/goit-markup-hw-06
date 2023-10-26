@@ -1044,10 +1044,10 @@ address {
         /* max-width: 260px;  */
         flex-wrap: wrap;
         gap: 64px 24px;
+        margin-bottom: 96px;
     }
 
     .team-submenu-list {
-        width: 264px;
         /* width: calc((264px - 24px) / 2); */
         justify-content: center;
         gap: 64px 24px;
