@@ -46,7 +46,7 @@ address {
     /* padding: 0 15px 0 15px; */
     max-width: 288px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     /* display: block; */
 }
 
@@ -1206,7 +1206,9 @@ address {
         display: flex;
         fill: black;
     }
-
+.team-title {
+    margin-bottom: 72px;
+}
     .team {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -1216,7 +1218,12 @@ address {
         display: flex;
         gap: 24px;
     }
-
+    .team-submenu-list {
+        padding: 0;
+    }
+    .team-name {
+        margin-top: 0;
+    }
     .container-worker {
         padding: 32px 0;
     }
