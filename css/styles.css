@@ -103,15 +103,15 @@ address {
     color: #404bbf;
 }
 
-.header-menu-list::after {
+.header-menu-list.activ::after {
     content: '';
+    display: block;
     position: absolute;
     left: 0;
-    bottom: -1px;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-
+    width: 100%;
 }
 
 .header-menu-list:hover {
@@ -982,9 +982,12 @@ display: none;
         padding: 0 15px 0 15px;
         max-width: 768px;
         margin: 0 auto;
-
     }
 
+
+.header-menu-list.activ::after {
+    bottom: -4px;
+}
     .header-menu {
         display: flex;
         gap: 40px;
@@ -1001,8 +1004,13 @@ display: none;
 
     .header-address-list {
         line-height: 1.2;
+        font-size: 12px;
     }
+    .header-menu-address {
+        margin-top: 16px;
+        margin-bottom: 16px;
 
+    }
     .header-open-menu {
         display: none;
     }
@@ -1149,6 +1157,9 @@ display: none;
         
     }
 
+    .header-menu-list.activ::after {
+        bottom: -1px;
+    }
 
     .header-menu-address {
         font-style: normal;
@@ -1179,7 +1190,10 @@ display: none;
                 url(../images/people-office-2x.jpg);
         }
     }
-
+    .header-address-list {
+        line-height: 1.2;
+        font-size: 16px;
+    }
     .title-header {
         color: #FFF;
         text-align: center;
